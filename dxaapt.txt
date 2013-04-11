@@ -1,0 +1,9 @@
+comment debug
+uncomment pom
+switch felix log
+
+cd F:\workspaceJava\edu.asu.mobicloud.mcosgi4\target
+
+dx --dex --output="F:/workspaceJava/edu.asu.mobicloud.mcosgi4/target/classes.dex" "F:/workspaceJava/edu.asu.mobicloud.mcosgi4/target/edu.asu.mobicloud.mcosgi4-0.0.1.jar"
+aapt a "F:/workspaceJava/edu.asu.mobicloud.mcosgi4/target/edu.asu.mobicloud.mcosgi4-0.0.1.jar" "classes.dex"
+aapt l "F:/workspaceJava/edu.asu.mobicloud.mcosgi4/target/edu.asu.mobicloud.mcosgi4-0.0.1.jar"
